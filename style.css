@@ -1,0 +1,193 @@
+body{
+   margin:0px;
+  /* padding:3px;
+       /*this is for background image*/
+
+background-image: linear-gradient(rgba(5,6,9,0.4), rgba(5,6,9,0.4)),url("images/bg1.webp");
+background-size:cover;
+}
+.flex{
+  border:1.5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav{
+  /*background-image: url("navbar1.jpg");  */
+  background-repeat:no-repeat;    /*this is for nav bar*/
+  background-size: cover;
+  position:fixed;
+  margin-top:0;
+  padding:0;
+  height: 60px;
+  width: 100%;
+}
+ul{
+   margin:0;
+   padding:0;
+  list-style-type:none;
+
+}
+ul li{
+  float:left;
+  margin-left: 35px;
+  margin-top: 13px;
+  padding-left: 2px;
+
+}
+ul li a{
+  font-weight: bolder;   /*this is for anchor tag*/
+  font-style:normal;
+  font-family:calibri;
+  text-decoration: none;
+  font-size:20px;
+  color:#1A120B;
+}
+ul a:hover{
+  font-style: oblique;
+  color:blue;
+  text-decoration: underline;
+  text-decoration-color:#240041;
+  display: block;
+
+}
+ul li em{
+  font-style: oblique;
+  font-size: 30px;
+
+
+}
+#logo a:hover{
+margin: 0 0;
+font-family: sans-serif;   /*this is for cure care logo*/
+padding: 4px;
+}
+#logo{
+  margin:0;
+  padding-bottom:0;
+  background-image:url("bg2.webp");
+  background-repeat: no-repeat;
+  width:20%;
+  font-size:25px;
+}
+#logoo{           /*this is forEmergency button*/
+  background-color: #EEEEEE;
+  font-weight:inherit;
+  font-style: oblique;
+  border-radius:15px;
+  animation-name: EMERGENCY ;
+  animation-duration:6s;
+  animation-iteration-count: infinite;
+  animation-delay:1s;
+}
+@keyframes EMERGENCY {
+  0%{
+   background-color:green; color:white;
+  }
+  10%{
+    background-color:blue;color:yellow;
+  }
+  20%{
+    background-color:#16FF00;color:white;
+  }
+  30%{
+    background-color:#0081C9;color:white; }
+    40%{
+      background-color:#F3CCFF;color:black;
+    }
+    41%{
+      background-color:#F2921D;
+    }
+
+}
+p{
+  color:#8BF5FA;
+  width:80%;
+position:absolute;
+top: 30%;                     /*this is for consult doctor home*/
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+font-size: 40px;
+font-style: oblique;
+}
+p1{
+  margin:0;
+  background-repeat: no-repeat;
+  width:35%;
+  color:#8BF5FA;
+position:absolute;
+top: 20%;                     /*this is for cure care*/
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+font-size: 60px;
+font-style: normal;
+
+}
+p3{
+  margin:0;
+  background-repeat: no-repeat;
+  width:35%;
+  color:#8BF5FA;
+position:absolute;
+top: 58%;                     /*this is for cure care*/
+left:50%;
+transform:translate(-60%,-60%);
+text-align:center;
+font-size: 60px;
+font-style: normal;
+}
+
+/*APPONTment CSS*/
+.appoint{
+  background-image: linear-gradient(rgba(8,9,20,0.8), rgba(8,9,20,0.8)),url("images/ap2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#heading{
+  position: relative;
+  left:35%;
+
+  width:30%;
+}
+.header{
+  padding:10px;
+  margin-left:20px;
+}
+.header input,select{
+  border-color:black;
+  border-radius: 10px;
+}
+.header label{
+   color:#3A98B9;
+   font-style: normal;
+   font-weight:lighter;
+   font-size: 130%;
+
+}
+button:hover{
+  background-color: green;
+  border-radius: 20px;
+  font-weight:bolder;
+  font-style: oblique;
+}
+.fom input[type="text"],[type="number"],[type="email"],[type="radio"]
+[type="date"]{
+  box-sizing:40px;
+  width:20%;
+  height:25%;
+  border-radius: 20px;
+}
+.header{
+  position:relative;
+  left: 30%;
+  top:10%;
+}
+/*health   info */
+.info{
+  background-image: url("images/bghealthinfo.jpg");
+  font-size:22px;
+  backface-visibility: hidden;
+}

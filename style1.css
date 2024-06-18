@@ -1,0 +1,83 @@
+.box{
+    width:35%;
+    height:45%;
+    color:#d9440a;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+  }
+  .ket{
+    display:block;
+    text-decoration:none;
+    border:2px double white;
+    background:transparent;
+    color:white;
+    padding:34px 34px;
+    font-size:20px;
+    position:relative;
+  }
+  .ket label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-size:20px;
+  }
+  .ket input{
+    text-align: center;
+    padding:7px 13px;
+    font-size:20px;
+  }
+  #pri,#mon,#tt2,#pay{
+    display:none;
+  }
+  .ket button{
+    text-align: center;
+    padding:10px 17px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    background:transparent;
+    border-color:#36f4b5;
+    color:white;
+
+    cursor:pointer;
+  }
+  .ket button:hover{
+    color:#36f4b5;
+     transition:0.5s;
+  }
+  #lef{
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    font-size:20px;
+  }
+
+
+
+  .links{
+    flex:1;    /* value 1 represents for row   */
+    text-align:center;
+  }
+
+  .links ul li{
+       list-style:none;
+       display: inline-block;
+       padding:8px 10px;        /* This is for space between hyperlinks   */
+       position:relative;
+  }
+  .links ul li a {
+     text-decoration:none;
+  }
+  .links ul li img{
+      width:70px;
+      height:70px;
+  }
+
+
+  .links ul li:hover {
+    padding:8px 10px;
+    border: solid 1px cyan;
+
+  }

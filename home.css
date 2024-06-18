@@ -1,0 +1,97 @@
+
+/* navigation BAR */
+.navbar ul {
+  display:flex;
+  list-style-type: none;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+
+}
+.navbar ul li{
+   margin-top: 5px;
+    margin-left:50px;
+    padding:10px;
+    font-size: 23px;
+    font-family:'Times New Roman';
+    text-decoration:none;
+
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:#97DEFF;
+}
+.navbar ul li img{
+  margin-right:12px;
+  height: 80px;
+  width:80px;
+  border-radius: 50px;
+}
+body{
+  background-image:linear-gradient(rgba(4,9,10,0.6),rgba(4,9,10,0.6)),url("images/od.webp");
+  background-size:cover;
+      background-attachment: fixed;
+      background-repeat:no-repeat;
+      width:100%;
+      height:100%;
+}
+h1{
+  font-size: 33px;
+  font-family:'Times New Roman';
+  color:cyan;
+  /* text-shadow:13px 8px 11px green; */
+}
+section1 #logo{
+  height:100px;
+  width:100px;
+ border-radius:60%;
+ border:3px solid red;
+ float:right;
+}
+/* types of crops images */
+.how table #images{
+  border-radius:60px;
+
+}
+#images img{
+
+   height:130px;
+   width:130px;
+  border-radius: 38%;
+}
+td a{
+  text-decoration: none;
+      font-size:25px;
+      font-family:'Times New Roman';
+      font-weight: bolder;
+      color:white;
+
+}
+.siddu .box img{
+  height:170px;
+  width:170px;
+ border-radius: 65%;
+
+}
+.box
+{
+  border: 2px solid white;
+  width:30%
+}
+.siddu .box p{
+  text-align: center;
+}
+  input[type=button]{
+    width:50%;
+    height: 30%;
+    padding: 6px 8px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 2.3px solid white;
+ border-color:white;
+ border-radius: 6px;
+ box-sizing: border-box;
+ background-color:inherit;
+    cursor: pointer;
+    background-color:red;
+  }
